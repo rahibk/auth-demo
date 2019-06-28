@@ -8,10 +8,10 @@
             let btn2 = document.querySelector("#app2");
 
 			btn1.addEventListener('click',function() {
-				window.document.location = 'http://localhost:8080/saml2-web-app-pickup-dispatch.com/';
+				window.document.location = 'http://localhost:8181/app1.com/';
 			});
             btn2.addEventListener('click',function() {
-				window.document.location = 'http://localhost:8080/saml2-web-app-pickup-manager.com/';
+				window.document.location = 'http://localhost:8181/app2.com/';
 			});
 		};
 
@@ -35,7 +35,7 @@
 			</nav>
 
     <ul class="list-group list-group-flush" >
-        <li class="list-group-item""><a id="app1" href="#" >Click here</a> to login to RPS</li>
+        <li class="list-group-item""><a id="app1" href="#" >Click here</a> to login to App 1</li>
         <li class="list-group-item"><a id="app2" href="#">Click here</a> to login to App 2 (MYSQL WSO2 DB)</li>
     </ul>
 </body>
